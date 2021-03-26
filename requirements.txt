@@ -15,7 +15,7 @@ entrypoints==0.2.3
 Flask==1.0.2
 gast==0.2.0
 grpcio==1.12.1
-gunicorn==19.9.0
+gunicorn==19.9.0ma
 h5py==2.8.0
 html5lib==0.9999999
 idna==2.7
@@ -36,7 +36,7 @@ Keras-Applications==1.0.2
 Keras-Preprocessing==1.0.1
 kiwisolver==1.0.1
 Markdown==2.6.11
-MarkupSafe==1.0
+MarkupSafe==1.1
 matplotlib==2.2.2
 mistune==0.8.3
 nbconvert==5.3.1
