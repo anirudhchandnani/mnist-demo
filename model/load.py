@@ -35,6 +35,5 @@ def init():
     
     model.compile(optimizer = 'adam', loss='categorical_crossentropy', metrics=['accuracy'])
 
-    graph = tf.get_default_graph()
-
+    graph = tf.compat.v1.reset_default_graph()
     return model, graph
